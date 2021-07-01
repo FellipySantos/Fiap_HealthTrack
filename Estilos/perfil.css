@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3ad67b;
+}
+
+header{
+    display: flex;
+    background-color: #030617;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+p,span,label{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #3ad67b;
+}
+a{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3ad67b;
+    margin-left: 5px;
+}
+#pesquisar{
+    height: 30px;
+}
+.cabecalho{
+    margin: 10px;
+    background-color: #030617;
+    align-items: center;
+    text-align: center;   
+}
+span{
+    margin-left: 10px;
+}
+#foto{
+    margin-top: 5px;
+    height: 100px;
+}
+#calendario{
+    width: 80%;
+}
+.Pontos{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 800px) {
+    .Pontos {
+      flex-direction: column;
+    }
+  }
+#exercicios{
+    min-width: 300px;
+    width: 50%;
+}
+.exercicio{
+    margin-top: 10px;
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #3ad67b;
+    align-items: center;
+    min-width: 300px;
+    justify-content: space-between;
+}
+.exercicio p{
+    margin-left: 10%;
+    display: inline;
+}
+.exercicio img{
+    margin-right: 10%;
+    width: 200px;
+    height: 120px;
+}
+#receitas{
+    width: 50%;
+}
+.receita{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #3ad67b;
+    align-items: center;
+    min-width: 300px;
+    justify-content: space-between;
+}
+.receita p{
+    margin-left: 10%;
+    display: inline;
+}
+.receita img{
+    margin-right: 10%;
+    width: 200px;
+    height: 120px;
+}

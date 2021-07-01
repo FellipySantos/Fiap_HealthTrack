@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Estilos/estilo.css">
+    <link rel="stylesheet" href="../Estilos/premium.css">
+</head>
+<body>
+    <div>
+    <header class="header">
+        <div id="logo">
+            <img src="../Imagens/login.png" alt="logo">
+            <p>Health track</p>
+        </div>
+        <div id="links">
+            <a href="index.html">Perfil</a>
+            <a href="exercicios.html">Exercicios</a>
+            <a href="receitas.html">Receitas</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="premium.html">Premium</a>
+            <a href="login.html">Sair</a>
+        </div>
+        <div id="barra_pesquisa">
+            <input type="text" name="pesquisa" id="pesquisa">
+            <button 
+            style="background-image: url('../Imagens/pesquisa.png'); width: 23px; height: 23px;">     
+            </button>
+        </div>
+    </header>
+    <div id="dados">
+        <form id="formLogin" method="GET" action="index.html">
+            <h3>Seja Premium</h3>
+            <div>
+                <input type="text" name="Cpf" id="cpf" placeholder="CPF" required>
+                <input type="password" name="rg" id="rg" placeholder="RG" required>
+            </div>
+            <div>
+                <select name="pagamento" id="pagamento">
+                    <option value="credito">Crédito</option>
+                    <option value="debito">Debito</option>
+                </select>
+                <input type="text" id="cartão" placeholder="Numero do cartão">
+                <input type="text" id="validade" placeholder="validade">
+                <input type="text" id="titular" placeholder="Nome do titular">
+                <input type="text" id="CVV" placeholder="CVV">
+            </div>
+            <button type="submit">Enviar</button>
+        <form>
+    </div>
+</body>
+</html>
